@@ -18,6 +18,66 @@
         };
         
         pessoa.saudacao(); // Chama o metodo saudacao do objeto pessoa
+
+        const carro = { 
+            marca:"Fiat",
+            modelo:"Barchetta",
+            Ano:"1998" ,
+            
+            descricao: function() {
+                console.log("Seu Carro é " + this.name)
+            }
+        };
+
+        carro.descricao(); 
+
+        const livro = { 
+            titulo:"Diario de um banana",
+            autor:"Jeff Kinney",
+            publicacao:2007,
+
+            detalhe: function() {
+                console.log("Seu livro é " + this.name)
+            }
+        };
+
+        livro.detalhe(); 
+
+        const filme = { 
+            titulo:"O Poderoso Chefão",
+            diretor:"Francis Ford Coppola",
+            lancamento:1972,
+
+            informacao: function() {
+                console.log("Seu filme é " + this.name)
+            }
+        };
+
+        filme.informacao(); 
+
+        const computador = { 
+            marca:"Dell",
+            modelo:"XPS 13",
+            anoFabricacao:2020 ,
+
+            especificacao: function() {
+                console.log("Seu computador é " + this.name)
+            }
+        };
+
+        computador.especificacao(); 
+    
+        const celular = { 
+            marca:"Apple",
+            modelo:"iPhone 12",
+            lancamento:2020 ,
+
+            detalhes: function() {
+                console.log("Seu celular é " + this.name)
+            }
+        };  
+
+        celular.detalhes(); 
     </script>
 </body>
 </html>
